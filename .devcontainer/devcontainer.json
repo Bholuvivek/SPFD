@@ -7,5 +7,10 @@
         "ghcr.io/devcontainers/features/docker-in-docker:1": {
             "version": "latest",
             "moby": true
-  }
+  },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "latest",
+            "moby": true
+    }
+}
 }
