@@ -32,7 +32,7 @@
 ```
 
 ##This is css File
-``css
+```css
 .button{
     padding: 50px;    
     align-items: center;
