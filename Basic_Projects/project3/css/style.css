@@ -6,6 +6,7 @@ span{
     font-size: 50px;
     color: greenyellow;
 }
+/*  Div CSSS */
 .center{
     display: flex;
     margin: 17%;
@@ -21,6 +22,7 @@ span{
     margin-top: 10px;
     border-radius: 10px;
 }
+/* Fotter CSS */
 .footer {
     margin-top: auto;
     background-color: #ceed05;
