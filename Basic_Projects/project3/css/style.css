@@ -1,0 +1,37 @@
+body{
+    background: #000;
+    color: #fff;
+}
+span{
+    font-size: 50px;
+    color: greenyellow;
+}
+.center{
+    display: flex;
+    margin: 17%;
+    justify-content: center;
+    height: 100mv;
+    flex-direction: column;
+    align-items: center;
+}
+#clock{
+    font-size: 40px;
+    padding: 20px 50px;
+    background-color: rgb(238, 141, 15);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.footer {
+    margin-top: auto;
+    background-color: #ceed05;
+    padding: 35px;
+    text-align: center;
+    
+}
+a{
+    padding-left: 30px;
+    max-height: 10px;
+}
+i{
+    min-height: 1cm;
+}
