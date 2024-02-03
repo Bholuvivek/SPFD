@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1e1d1d;
+}
+
+.wrapper {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    background: #0dd34c;
+    align-items: center;
+    max-height: 650px;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 50px auto; /* Center the form */
+    border-radius: 15px;
+}
+
+.form {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.guessField {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px  /* Center the input field horizontally and add margin to the top and bottom */
+}
+
+
+.guessSubmit {
+    background-color: #ceed05; /* Green-Yellow color */
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: 25px;
+    
+    cursor: pointer;
+    color: #fff; /* Text color for better visibility */
+    width: 80%; /* Button takes full width */
+    transition: background-color 0.3s;
+}
+
+.guessSubmit:hover {
+    background-color: #b3db4a; /* Lighter shade on hover */
+}
+
+.result {
+    margin-bottom: 10px;
+}
+
+.lastresult {
+    font-weight: bold;
+}
+
+.lower {
+    color: #f1c815; /* Red color for the "lower" message */
+    margin-top: 10px;
+}
+.footer {
+    margin-top: auto;
+    background-color: #a2e217;
+    padding: 35px;
+    text-align: center;
+    
+}
+a{
+    padding-left: 30px;
+    max-height: 10px;
+}
+i{
+    min-height: 1cm;
+    color: #1e1d1d;
+}
