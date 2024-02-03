@@ -15,7 +15,7 @@ let prevGuess = [];
 let numGuess = 1;
 
 let playGame = true;
-
+// checking the player is playing game or not
 if (playGame) {
   submit.addEventListener('click', function (e) {
     e.preventDefault();
@@ -25,6 +25,7 @@ if (playGame) {
   });
 }
 
+// Creating Function for Validating the guess number
 function validateGuess(guess) {
   if (isNaN(guess)) {
     alert('PLease enter a valid number');
@@ -45,6 +46,7 @@ function validateGuess(guess) {
   }
 }
 
+// Creating the Function for checking the number is match with Random Nuber or not
 function checkGuess(guess) {
   if (guess === randomNumber) {
     displayMessage(`You guessed it right`);
@@ -55,18 +57,21 @@ function checkGuess(guess) {
     displayMessage(`Number is TOOO High`);
   }
 }
-
+// Creating Another Function for Display  the Guess Number
 function displayGuess(guess) {
   userInput.value = '';
   guessSlot.innerHTML += `${guess}, `;
   numGuess++;
 //   remaining.innerHTML = `${re}`;
 }
+// Creating Function for Display the Message
 
 function displayMessage(message) {
   lowOrHi.innerHTML = `<h2>${message}</h2>`;
 }
 
+
+// Creating Function for Start new Game when First attempt Over
 function endGame() {
   userInput.value = '';
   userInput.setAttribute('disabled', '');
@@ -76,6 +81,7 @@ function endGame() {
   playGame = false;
   newGame();
 }
+// Creating Function for New Game
 
 function newGame() {
   const newGameButton = document.querySelector('#newGame');
@@ -91,4 +97,4 @@ function newGame() {
     playGame = true;
   });
 }
-
+// Done Now It's Working...........
