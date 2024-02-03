@@ -1,7 +1,7 @@
 
 // Creating a Random Number
 let randomNumber = parseInt(Math.random() * 100 + 1);
-
+//Selecting the html using DOM
 const submit = document.querySelector('#submit');
 const userInput = document.querySelector('#guessField');
 const guessSlot = document.querySelector('.guesses');
@@ -10,7 +10,7 @@ const lowOrHi = document.querySelector('.lower');
 const startOver = document.querySelector('.result');
 
 const p = document.createElement('p');
-
+// Taking Variable for showing the previous guess number and current guess number
 let prevGuess = [];
 let numGuess = 1;
 
