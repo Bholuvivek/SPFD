@@ -1,0 +1,51 @@
+body {
+    background: #0a90e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main  {
+    background-color: #5024ff;
+    background-image: -moz-repeating-linear-gradient();
+    height: 215px;
+    width: 290px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+h2{
+    text-align: center;
+}
+
+#photo {
+    position: fixed;
+    margin-top: 10px;
+    padding-left: 210px;
+    padding-top: 60px;
+    border-radius: 10px;
+}
+
+#name,
+#public_repos,
+#idnum,
+#follower,
+#html_url,
+#following {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#html_url a {
+    color: #df1313;
+    text-decoration: none;
+}
+
+#html_url a:hover {
+    text-decoration: none;
+}
