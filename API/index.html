@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Call</title>
+    <style>
+        body {
+            background: #0a90e9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .main {
+            background-image:url(./bd.jpg);
+            height: 215px;
+            width: 290px;
+            border-radius: 10px;
+            margin: 10px;
+            font-size: auto;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        h2{
+            text-align: center;
+        }
+
+        #photo {
+            position: fixed;
+            margin-top: 10px;
+            padding-left: 210px;
+            padding-top: 60px;
+            border-radius: 10px;
+        }
+
+        #name,
+        #public_repos,
+        #idnum,
+        #follower,
+        #html_url,
+        #following {
+            margin-bottom: 5px;
+            margin-left: 5px;
+        }
+
+        #html_url a {
+            color: #df1313;
+            text-decoration: none;
+        }
+
+        #html_url a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body id="body">
+    <div class="main">
+        <h2>GitHub ID Card</h2>
+        <div id="photo" class="photo"></div>
+        <div id="name"></div>
+        <div id="idnum"></div>
+        <div id="follower"></div>
+        <div id="following"></div>
+        <div id="public_repos"></div>
+        <div id="html_url"></div>
+    </div>
+
+    <script>
+        const userdata = document.getElementById('name')
+        const follower = document.getElementById('follower')
+        const following = document.getElementById('following')
+        const profilePhoto = document.getElementById('photo')
+        const idnum = document.getElementById('idnum')
+        const idlink = document.getElementById('html_url')
+        const repo = document.getElementById('public_repos')
+
+        const url = "https://api.github.com/users/kumarpratik7479"
+        let xhr = new XMLHttpRequest();
+        xhr.open('GET', url)
+        xhr.onreadystatechange = function () {
+            console.log(xhr.readyState);
+            if (xhr.readyState === 4) {
+                const data = JSON.parse(this.responseText)
+                userdata.innerHTML = `User Name : ${data.login}`
+                follower.innerHTML = `User Follower : ${data.followers}`
+                following.innerHTML = `User Following : ${data.following}`;
+                idnum.innerHTML = `User Id : ${data.id}`
+                repo.innerHTML = `Total Repo : ${data.public_repos}`
+                idlink.innerHTML = `Profile Link: <a href='${data.html_url}'>Click Here</a>`
+                profilePhoto.innerHTML = `<img src="${data.avatar_url}" width="65px" height='80px' border='2px' border-color='blue'>`
+
+            }
+        }
+        xhr.send()
+    </script>
+</body>
+</html>
