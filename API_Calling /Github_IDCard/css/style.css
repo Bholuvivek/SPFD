@@ -9,6 +9,7 @@ body {
 
 .main {
     background-image:url(./bd.jpg);
+    background-color: #5024ff;
     background-image: -moz-repeating-linear-gradient();
     height: 215px;
     width: 290px;
