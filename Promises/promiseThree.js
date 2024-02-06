@@ -23,4 +23,4 @@ promise.then((user)=>{
     console.log(userInsta);
 }).catch(function (err) {
     console.log(err);   
-}).finally(()=> console.log('Everything Done');)
+}).finally(()=> console.log('Everything Done'))
