@@ -3,7 +3,7 @@
 const promise = new Promise(function (resolve,  reject) {
     setTimeout(() => {
         console.log('Async Consumed');
-        let data = true;
+        let data = true; // it give error if i keep false then give the resulty
         if(!true){
             resolve({MyName: 'Vivek Singh', MyInsta:'@thevivekbholu'})
         }
@@ -23,4 +23,4 @@ promise.then((user)=>{
     console.log(userInsta);
 }).catch(function (err) {
     console.log(err);   
-})
+}).finally(()=> console.log('Everything Done');)
