@@ -4,5 +4,5 @@ fetch('https://jsonplaceholder.typicode.com/users')
 }).then((data)=>{
     console.log(data);
 }).catch((error)=>{
-    console.log(error);
+    console.log(error); //Here Error will show IF I put the Wrong API
 })
