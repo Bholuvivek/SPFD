@@ -3,5 +3,7 @@ const user = {
     age:22,
     github:"Bholuvivek",
     instagram:"thevivekbholu",
-   function()
+   function(){
+    console.log(user.name)
+   }
 }
