@@ -6,7 +6,7 @@ const idnum = document.getElementById('idnum')
 const idlink = document.getElementById('html_url')
 const repo = document.getElementById('public_repos')
 
-const url = "https://api.github.com/users/Bholuvivek"
+const url = "https://api.github.com/users/kamleshgupt"
 let xhr = new XMLHttpRequest();
 xhr.open('GET', url)
 xhr.onreadystatechange = function () {
