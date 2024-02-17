@@ -1,0 +1,29 @@
+body {
+    background-color: #222;
+    color: #fff; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fff; 
+    
+}
+.scedule-heading{
+    text-align: center;
+    background-color: rgb(127, 142, 255);
+}
+h2{
+    margin-left: 60px;
+}
+
+ul {
+    list-style-type: none; 
+    margin-left: 70px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style: disc; 
+}
