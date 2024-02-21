@@ -45,19 +45,20 @@ body {
 }
 .container {
   max-width: 800px;
-  margin: 0 auto;
+
   padding: 20px;
 }
 
 /* Headings */
 h1 {
-  font-size: 2rem;
+  text-align:center;
   margin-bottom: 20px;
   background-color:#666afb;
 }
 
 h2 {
-  font-size: 1.5rem;
+  text-align:center;
+ 
   margin-top: 30px;
   margin-bottom: 10px;
   background-color:#61dafb;
@@ -65,6 +66,9 @@ h2 {
 
 /* List styles */
 ol {
+  font-size: 16px;
+  font-weight: bold;
+  color:#FFF;
   list-style: none;
   margin-left: 20px;
 }
@@ -88,7 +92,7 @@ code {
 
 /* Link styles */
 a {
-  color: #007bff;
+  color: #3d1fe4;
   text-decoration: none;
 }
 
