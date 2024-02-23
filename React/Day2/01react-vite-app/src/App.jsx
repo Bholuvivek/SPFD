@@ -6,7 +6,7 @@ function App() {
   return (
     
   <>
-  <h1>Hii ! Welcome to Day2</h1>
+  <h1 className='apphead'>Hii ! Welcome to Day2</h1>
   </>
   )
 }

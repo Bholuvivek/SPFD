@@ -7,3 +7,11 @@
 .head1{
   background-color:#26eb26;
 }
+h1, h2{
+  color:#FFF;
+}
+.apphead{
+  background-color: aqua;
+  text-align: center;
+}
+
