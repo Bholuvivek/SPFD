@@ -6,19 +6,20 @@ function App() {
 
    const [count, setCounter]  = useState(0)
 
-
+  
   const addCount = () =>{
     setCounter(count+1)
   }
   
-  
+ 
 
   const removeCount = () => {
     if(count>0){
+     
     setCounter(count - 1)
   }
   else{
-   const message= document.querySelector('.erro')
+    const message= document.querySelector('.erro')
    message.innerHTML = "Sorry The Counter is  Zero"
   }
   }
