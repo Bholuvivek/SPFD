@@ -26,7 +26,7 @@ function App() {
   
   return (
     <>
-    <h1>Let's Create Plus and Minus </h1>
+    <h1>So we are going to create Create Plus and Minus </h1>
 
     <h3 className='erro'></h3>
     <h2>Counter Value is :{count}</h2>
