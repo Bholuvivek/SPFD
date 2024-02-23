@@ -6,7 +6,9 @@ function App() {
   return (
     
   <>
+  <root/>
   <h1 className='apphead'>Hii ! Welcome to Day2</h1>
+ <root />
   </>
   )
 }
