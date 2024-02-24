@@ -29,7 +29,7 @@ const Footer = () => {
           <h3>Social Media Links</h3>
           <ul className="social-icons">
             <li><a href="#"><FaFacebookF />Facebook</a></li> <br/>
-            <li><a href="#"><FaTwitter /></a>Twitter</li><br/>
+            <li><a href="#"><FaTwitter />Twitter</a></li><br/>
             <li><a href="#"><FaInstagram />Instagram</a></li><br/>
             <li><a href="#"><FaLinkedinIn />LinkedIn</a></li>
           </ul>
