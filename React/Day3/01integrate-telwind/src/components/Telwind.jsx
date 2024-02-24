@@ -15,9 +15,26 @@ function Telwind() {
       <li>Create React App with help of this command : <code>npm create vite</code></li>
       </ul>
       </div>
+      <div className='steps'><h1>Step 2</h1></div>
+    <div className='step-content'> 
+      <ul>
+      <li>Install with help of this command : <code>npm i  or npm install</code></li>
+      </ul>
+      </div>
+      <div className='steps'><h1>Step 3</h1></div>
+    <div className='step-content'> 
+      <ul>
+      <li>Create React App with help of this command : <code>npm create vite</code></li>
+      </ul>
+      </div>
      
-   
-   
+      <div className='steps'><h1>Step 1</h1></div>
+    <div className='step-content'> 
+      <ul>
+      <li>Create React App with help of this command : <code>npm create vite</code></li>
+      </ul>
+      </div>
+
     </div>
     
     </>
