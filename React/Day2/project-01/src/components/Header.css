@@ -2,16 +2,26 @@
     margin: 0;
     padding: 0;
 }
-.Header{
+.header{
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    margin: 0;
+    background-color: #FFF;
+    font-size: larger;
+    font-weight: bolder;
+    border: 2px solid #2323;
+    
   
 }
 
 .nav-item ul{
     display: flex;
     list-style: none;
-    padding: 30px;
-    justify-content: space-between;
-
+    text-align: center;
+}
+.nav-item ul li{
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
 }
