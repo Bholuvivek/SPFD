@@ -18,13 +18,19 @@ function Telwind() {
       <div className='steps'><h1>Step 2</h1></div>
     <div className='step-content'> 
       <ul>
-      <li>Install with help of this command : <code>npm i  or npm install</code></li>
+      <li>Change Directory with help of this command : <code>cd app-name </code></li>
       </ul>
       </div>
       <div className='steps'><h1>Step 3</h1></div>
     <div className='step-content'> 
       <ul>
-      <li>Create React App with help of this command : <code>npm create vite</code></li>
+      <li>Install with help of this command : <code>npm i  or npm install</code></li>
+      </ul>
+      </div>
+      <div className='steps'><h1>Step 4 </h1></div>
+    <div className='step-content'> 
+      <ul>
+      <li>Install Telwind with help of this command : <code>npm install -D tailwindcss postcss autoprefixer <br /> npx tailwindcss init -p</code></li>
       </ul>
       </div>
      
