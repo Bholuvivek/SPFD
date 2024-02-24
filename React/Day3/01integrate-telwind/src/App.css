@@ -8,8 +8,31 @@
   background-color: rgb(82, 187, 243);
   margin-top: 0px;
   color: rgb(189, 17, 17);
-  width: auto;
+  width: 100%;
   height: fit-content;
+}
+.heading2{
+
+  color: #FFF;
+  font-size: xx-large;
+  text-align: justify;
+  padding-left: 10px;
+  width:100%;
+}
+.steps{
+  float: left;
+  font-size: larger;
+  font-weight: bolder;
+  width:100%;
+  text-align: start;
+}
+.step-content{
+  text-align: justify;
+  
+}
+.step-content li{
+  list-style-type: disc;
+  margin-left: 30px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
