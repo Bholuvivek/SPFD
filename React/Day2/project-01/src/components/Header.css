@@ -5,16 +5,14 @@
 }
 
 .header {
- 
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 100%;
     display: flex;
     margin: 0;
     background-color: #0afbfb;
     font-size: larger;
-    font-weight: bolder;#000;
+    font-weight: bolder;
     border: 2px solid #2323;
-    color:
 }
 
 .my-logo img {

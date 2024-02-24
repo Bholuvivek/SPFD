@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'; // Importing icons from React Icons
 import './Footer.css'; // Importing the CSS file for styling
 
@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Useful Links</h3>
           <ul>
-            <li><a href="#">FAQs</a></li>
-            <li><a href="#">Terms of Service</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Help/Support</a></li>
+            <li><a href="/faqs">FAQs</a></li>
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/help-support">Help/Support</a></li>
           </ul>
         </div>
         <div className="footer-section">
