@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+.my-logo img{
+    display: flex;
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin: 10px 0 10px 10px;
+    justify-content: space-between;
+}
