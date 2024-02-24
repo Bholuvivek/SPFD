@@ -2,6 +2,7 @@ import React from 'react'
 import '../App.css'
 
 function Telwind() {
+  
     
   return (
    <>
@@ -34,15 +35,30 @@ function Telwind() {
       </ul>
       </div>
      
-      <div className='steps'><h1>Step 1</h1></div>
+      <div className='steps'><h1>Step 5</h1></div>
     <div className='step-content'> 
       <ul>
-      <li>Create React App with help of this command : <code>npm create vite</code></li>
+      <li>Configure your template paths: <br />Add the paths to all of your template files in your tailwind.config.js file. : <code> <br />./index.html, <br />
+    ./src/**/*</code></li>
       </ul>
       </div>
+      <div className='steps'><h1>Step 6 </h1></div>
+    <div className='step-content'> 
+      <ul>
+      <li>IAdd the Tailwind directives to your CSS: <br />
+Add the @tailwind directives for each of Tailwind’s layers to your: <br /> ./src/index.css file.</li><br /> <code>@tailwind base;<br />
+@tailwind components;<br />
 
-    </div>
+@tailwind utilities;</code>
+      </ul>
+      </div>
     
+    <div className='heading2'>
+      <h2>Conclusion:</h2>
+    <p>All set! You have completed the integration of Tailwind CSS into your React app. To run your app, use the command:</p>
+          <code>npm run dev</code>
+    </div>
+    </div>
     </>
   )
 }

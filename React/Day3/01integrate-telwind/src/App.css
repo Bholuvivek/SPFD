@@ -34,6 +34,16 @@
   list-style-type: disc;
   margin-left: 30px;
 }
+/* Add this CSS to your stylesheet */
+code {
+  background-color: #f3f4f6; 
+  color: #333; 
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+  font-family: 'Courier New', Courier, monospace; 
+  user-select: all;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
 
