@@ -37,6 +37,10 @@
 .nav-item ul li a{
     text-decoration: none;
 }
+.nav-item ul li a:hover{
+    background-color:#030111
+    color:#FFF;
+}
 
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
