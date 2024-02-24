@@ -1,7 +1,7 @@
 .footer {
-    background-color: #333;
+    background-color: #632a2a;
     padding: 30px 0;
-    color: #f8f9fa;
+    color: #FFF;
   }
   
   .footer-container {
@@ -18,7 +18,7 @@
   }
   
   .footer-section h3 {
-    color: #f8f9fa;
+    color: #efc004;
     font-size: 18px;
     margin-bottom: 10px;
   }
@@ -45,7 +45,8 @@
     margin-top: 20px;
     text-align: center;
     font-size: 14px;
-    color: #f8f9fa;
+    color: #000000;
+    font-weight: bolder;
   }
 
   /* Your existing CSS */
@@ -65,7 +66,7 @@
 }
 
 .social-icons a {
-  color: #333;
+  color: #ffffff;
   font-size: 20px;
   text-decoration: none;
 }
