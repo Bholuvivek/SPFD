@@ -1,0 +1,52 @@
+.main{
+    height: 100vm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobile{
+    height:600px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mobile img{
+    height:550px;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temperature-div{
+    display: grid;
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    height: 165px;
+    width: 165px;
+    margin-left: -390px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
+.clock  h2{
+    margin: 40px;
+    font-size: 40px;
+    color: #FFF;
+    text-align: center;
+}
+.btn{
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -520px;
+}
+.btn :nth-child(1){
+    margin-left: -60px;
+    margin-right: 40px;
+}
