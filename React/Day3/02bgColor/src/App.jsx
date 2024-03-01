@@ -2,11 +2,13 @@ import { useState } from 'react'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [color, setColor] = useState("olive")
 
   return (
     <>
-     
+     <div className="bgColor-" style={{backgroundColor: color, height:'100vh'}}>
+     <h2>Background Changer App</h2>
+     </div>
     </>
   )
 }
