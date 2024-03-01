@@ -1,0 +1,18 @@
+.bgColor-div{
+ border-radius: 25px;
+}
+.btn{
+  border: 5px solid #ef08d0;
+  padding: 11px;
+  border-radius: 25px;
+  background-color: #08efe7;
+  
+}
+.btn button{
+  width: 95px;
+  border:5px solid black;
+  border-radius: 17px;
+  margin-left: 10px;
+  padding: 6px;
+  justify-content: space-between;
+}
