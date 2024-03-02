@@ -18,7 +18,7 @@ function App() {
     if(charAllow) str += "~!@#$%^&*()_-+={}[]()?."
 
     //Genrating the Password
-    for (let i = 1; i < array.length; i++) {
+    for (let i = 1; i <=length; i++) {
       let char = Math.floor(Math.random() * str.length + 1)
       pass = str.charAt(char);
     }
@@ -35,7 +35,23 @@ function App() {
         <button>Copy</button>
       </div>
       <div className="flex items-center gap-x-1"> 
-      <input type="range" min={6} max={50} value={length} name="" id="" /></div>
+      <input type="range" min={6} max={50} value={length} className='cursor-pointer' 
+      onChange={(e)=> {setLength(e.target.value)}} />
+      <label>Length: {length}</label>
+      <input type="checkbox"
+      defaultChecked={numberAllow}
+      id='numberInput'
+      onChange={()=>{setNumber((prev)=> !prev)}}
+      
+       /> <label htmlFor='numberInput'>Number Alllowed</label>
+        <input type="checkbox"
+        defaultChecked={charAllow}
+        id='charInput'
+        onChange={()=> {setChar((prev) =>!prev)}}
+         />
+         <label htmlFor="charInput">Charaacter Allowed</label>
+
+      </div>
     </div>
     </>
   )
