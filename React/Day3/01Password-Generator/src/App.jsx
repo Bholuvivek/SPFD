@@ -12,14 +12,31 @@ function App() {
   const passwordGenerator=useCallback(()=>{
     let pass = "";
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-    
+    //COndition for setNumber
+
+    if(numberAllow) str +="0123456789"
+    if(charAllow) str += "~!@#$%^&*()_-+={}[]()?."
+
+    //Genrating the Password
+    for (let i = 1; i < array.length; i++) {
+      let char = Math.floor(Math.random() * str.length + 1)
+      pass = str.charAt(char);
+    }
+    setPassword(pass)
   }, [length, numberAllow,charAllow, password, setPassword])
     
   
 
   return (
     <>
-   <h1>Password Generator</h1>
+    <div className='main-div'>
+      <div className="input-field">
+        <input type="text" value={password}  placeholder='Password' readOnly/>
+        <button>Copy</button>
+      </div>
+      <div className="flex items-center gap-x-1"> 
+      <input type="range" min={6} max={50} value={length} name="" id="" /></div>
+    </div>
     </>
   )
 }
