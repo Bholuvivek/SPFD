@@ -9,12 +9,13 @@ function App() {
 
   //Creating Function Password Generator
 
-  const passwordGenerator=useCallback(=()=>{
+  const passwordGenerator=useCallback(()=>{
     let pass = "";
-    let str = ""
-  } [length, numberAllow,charAllow, password, setPassword])
+    let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
     
-  }
+  }, [length, numberAllow,charAllow, password, setPassword])
+    
+  
 
   return (
     <>
