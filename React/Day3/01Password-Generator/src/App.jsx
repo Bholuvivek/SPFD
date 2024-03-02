@@ -6,7 +6,12 @@ function App() {
   const [numberAllow, setNumber] = useState(false)
   const [charAllow, setChar] = useState(false)
   const [Password, setPassword] = useState("")
-  
+
+  //Creating Function Password Generator
+
+  const passwordGenerator=()=>{
+    
+  }
 
   return (
     <>
