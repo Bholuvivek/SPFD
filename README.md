@@ -1,6 +1,6 @@
 <p align="center">
   <a href="YOUR_WEBSITE_URL">
-    <img width="25%" alt="Hello, I'm Vivek I'm passionate about coding!" src="https://avatars.githubusercontent.com/u/102277762?s=400&u=141b8963803f46800af77b5fe2ccb0bfd3f28edd&v=4" />
+    <img width="25%" border-redius="10%" alt="Hello, I'm Vivek I'm passionate about coding!" src="https://avatars.githubusercontent.com/u/102277762?s=400&u=141b8963803f46800af77b5fe2ccb0bfd3f28edd&v=4" />
   </a>
 </p>
 
@@ -40,7 +40,7 @@ Hi there, I'm **Vivek Kumar**, a passionate sofware  developer from Bihar, India
 #### Top Repositories
 
 <a href="https://github.com/Bholuvivej/SPFD">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Boluvivek&repo=Java-Project&theme=buefy" />
+  <img align="center" src="https://github.com/username=Boluvivek&repo=Java-Project&theme=buefy" />
 </a>
 
 <a href="https://github.com/Bholuvivek/React-Projects">
