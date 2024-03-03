@@ -1,6 +1,6 @@
 <p align="center">
   <a href="YOUR_WEBSITE_URL">
-    <img width="40%" alt="Hello, I'm Vivek I'm passionate about coding!" src="https://avatars.githubusercontent.com/u/102277762?s=400&u=141b8963803f46800af77b5fe2ccb0bfd3f28edd&v=4" />
+    <img width="25%" alt="Hello, I'm Vivek I'm passionate about coding!" src="https://avatars.githubusercontent.com/u/102277762?s=400&u=141b8963803f46800af77b5fe2ccb0bfd3f28edd&v=4" />
   </a>
 </p>
 
@@ -10,7 +10,7 @@ Hi there, I'm **Vivek Kumar**, a passionate sofware  developer from Bihar, India
 
 **About me**
 
-- 💼 Frontend Developer at []Margdshan](https://marg-darshan.com/)
+- 💼 Frontend Developer at [Margdshan](https://marg-darshan.com/)
 
   - 📈 Here are some of my notable projects and achievements:
   - Developed a quiz application using Java AWT Swing.
