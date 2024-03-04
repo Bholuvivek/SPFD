@@ -27,8 +27,13 @@ Hi there, I'm **Vivek Kumar**, a passionate software developer from Bihar, India
 <code><img height="20" alt="sql" src="https://img.icons8.com/fluent/48/000000/sql.png"></code>
     
 
-| <a href="https://github.com/Bholuvivek/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api?username=Bholuvivek&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Bholuvivek's github stats" /></a> | <a href="https://github.com/Bholuvivek/github-readme-stats"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BholuvivekkE&layout=compact&theme=buefy&hide_border=true" /></a> |
-| ------------- | ------------- |
+
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Bholuvivel&show_icons=true&locale=en&layout=compact" alt="Bholuvivel" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Bholuvivel&show_icons=true&locale=en" alt="Bholuvivel" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Bholuvivel&" alt="Bholuvivel" /></p>
 
 #### Top Repositories
 
