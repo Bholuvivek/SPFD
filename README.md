@@ -29,11 +29,11 @@ Hi there, I'm **Vivek Kumar**, a passionate software developer from Bihar, India
 
 
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Bholuvivel&show_icons=true&locale=en&layout=compact" alt="Bholuvivel" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Bholuvivek&show_icons=true&locale=en&layout=compact" alt="Bholuvivek" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Bholuvivel&show_icons=true&locale=en" alt="Bholuvivel" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Bholuvivek&show_icons=true&locale=en" alt="Bholuvivek" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Bholuvivel&" alt="Bholuvivel" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Bholuvivek&" alt="Bholuvivek" /></p>
 
 #### Top Repositories
 
