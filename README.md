@@ -38,11 +38,11 @@ Hi there, I'm **Vivek Kumar**, a passionate software developer from Bihar, India
 #### Top Repositories
 
 <a href="https://github.com/Bholuvivej/SPFD">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Bholuvivek&repo=Java-Project&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Bholuvivek&repo=SPFD&theme=buefy" />
 </a>
 
 <a href="https://github.com/Bholuvivek/React-Projects">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Bholuvivek&repo=SCS&theme=buefy" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Bholuvivek&repo=React-Projects&theme=buefy" />
 </a>
 
 <br />
