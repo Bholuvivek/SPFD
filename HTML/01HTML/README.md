@@ -32,6 +32,7 @@ An HTML document consists of several key components:
 HTML uses a set of tags to define the structure and content of a webpage. Tags are enclosed in angle brackets < > and typically come in pairs: an opening tag and a closing tag. The content of the element is placed between these tags.
 
 # Common HTML Tags:
+``` bash
 - <h1>, <h2>, <h3>, ... <h6>: Headings of different levels.
 - <p>: Paragraph.
 - <a>: Anchor for creating hyperlinks.
@@ -40,7 +41,7 @@ HTML uses a set of tags to define the structure and content of a webpage. Tags a
 - <div>, <span>: Generic container elements.
 - <strong>, <em>: Text emphasis.
 - <br>, <hr>: Line break and horizontal rule.
-
+```
 # Example:
 
 ```
@@ -54,3 +55,18 @@ bash
     <li>Item 1</li>
     <li>Item 2</li>
 </ul>
+```
+Feel free to explore the individual folders for each topic to access code examples, explanations, and additional resources. We hope you enjoy your learning journey with MERN!
+
+## Contact Information
+
+For additional support and updates, you can reach me through the following channels:
+
+- **YouTube:** [Vivek Kumar Singh l](https://www.youtube.com/channel/UClhKtACVRfHeYcDiAxngZpQ)
+- **Email:** viveksinghpihuli0a@gmail.com
+- **GitHub:** [Bholuvivek](https://github.com/Bholuvivek)
+- **LinkedIn:** ](https://www.linkedin.com/in/vivekbholu)
+- **Instagram:**[vivekbholu] [thevivekbhou](https://www.instagram.com/thevivekbholu)
+- **Twitter:** [Bholuvivek](https://twitter.com/Bholuvivek)
+
+Feel free to connect and stay updated on the latest programming content and announcements!
