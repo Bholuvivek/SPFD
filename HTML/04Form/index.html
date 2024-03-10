@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Elements</title>
+</head>
+<body>
+    <header>
+        <h1>Forms and Input Elements</h1>
+    </header>
+
+    <section>
+        <h2>Form Structure</h2>
+        <p>A form in HTML is used to collect user input. It is defined using the <code>&lt;form&gt;</code> element.</p>
+        <form action="#" method="post">
+            <!-- Form fields will be added here -->
+        </form>
+    </section>
+
+    <section>
+        <h2>Input Types</h2>
+        <p>HTML provides various input types to collect different types of data. Some common input types include:</p>
+        <ul>
+            <li><code>text</code>: For plain text input</li>
+            <li><code>password</code>: For password input (characters are masked)</li>
+            <li><code>email</code>: For email input (includes validation for email format)</li>
+            <li><code>number</code>: For numeric input</li>
+            <li><code>checkbox</code>: For checkboxes</li>
+            <li><code>radio</code>: For radio buttons</li>
+            <li><code>submit</code>: For form submission</li>
+            <li><code>button</code>: For generic button</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Form Submission and Handling</h2>
+        <p>Forms can be submitted using the <code>&lt;input type="submit"&gt;</code> or <code>&lt;button type="submit"&gt;</code> elements. The form data is sent to the server defined in the <code>action</code> attribute of the <code>&lt;form&gt;</code> element.</p>
+        <form action="submit.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="100"><br><br>
+            
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label><br><br>
+            
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>

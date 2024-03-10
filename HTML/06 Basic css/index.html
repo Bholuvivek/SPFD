@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* Example of CSS Selector */
+        .info {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CSS Basics</h1>
+    </header>
+
+    <section class="info">
+        <h2>Introduction to Cascading Style Sheets (CSS)</h2>
+        <p>CSS is a style sheet language used for describing the presentation of a document written in HTML. It allows you to control the layout, colors, fonts, and other visual aspects of your web pages.</p>
+    </section>
+
+    <section class="info">
+        <h2>Inline, Internal, and External CSS</h2>
+        <p>
+            <strong>Inline CSS:</strong> Applied directly to an HTML element using the <code>style</code> attribute. For example: <code>&lt;p style="color: red;"&gt;This is a paragraph&lt;/p&gt;</code><br>
+            <strong>Internal CSS:</strong> Defined within the <code>&lt;style&gt;</code> element in the <code>&lt;head&gt;</code> section of an HTML document. For example, see the styles defined above.<br>
+            <strong>External CSS:</strong> Linked to an HTML document using the <code>&lt;link&gt;</code> element. For example: <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+        </p>
+    </section>
+
+    <section class="info">
+        <h2>CSS Syntax and Selectors</h2>
+        <p>The CSS syntax consists of a selector followed by a declaration block enclosed in curly braces. Each declaration block contains one or more property-value pairs.</p>
+        <p>Example of CSS selector:</p>
+        <pre>
+            <code>
+                /* Selector */
+                .info {
+                    /* Declaration Block */
+                    background-color: #fff;
+                    padding: 20px;
+                    margin: 20px auto;
+                    max-width: 600px;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+            </code>
+        </pre>
+    </section>
+</body>
+</html>
