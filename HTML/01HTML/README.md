@@ -32,19 +32,19 @@ An HTML document consists of several key components:
 HTML uses a set of tags to define the structure and content of a webpage. Tags are enclosed in angle brackets < > and typically come in pairs: an opening tag and a closing tag. The content of the element is placed between these tags.
 
 # Common HTML Tags:
-<h1>, <h2>, <h3>, ... <h6>: Headings of different levels.
-<p>: Paragraph.
-<a>: Anchor for creating hyperlinks.
-<img>: Image.
-<ul>, <ol>, <li>: Unordered and ordered lists, and list items.
-<div>, <span>: Generic container elements.
-<strong>, <em>: Text emphasis.
-<br>, <hr>: Line break and horizontal rule.
+- <h1>, <h2>, <h3>, ... <h6>: Headings of different levels.
+- <p>: Paragraph.
+- <a>: Anchor for creating hyperlinks.
+- <img>: Image.
+- <ul>, <ol>, <li>: Unordered and ordered lists, and list items.
+- <div>, <span>: Generic container elements.
+- <strong>, <em>: Text emphasis.
+- <br>, <hr>: Line break and horizontal rule.
 
 # Example:
 
 ```
-html
+bash
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph of text.</p>
