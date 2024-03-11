@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling HTML Elements</title>
+    <style>
+        /* Applying styles to text */
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333333;
+        }
+
+        /* Box model */
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #333333;
+            background-color: #f0f0f0;
+        }
+
+        /* Positioning elements */
+        .position-relative {
+            position: relative;
+        }
+
+        .position-absolute {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+
+        .position-fixed {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Styling HTML Elements</h1>
+    </header>
+
+    <section>
+        <h2>Applying Styles to Text</h2>
+        <p>This paragraph demonstrates applying styles to text using CSS. Font properties, such as font family, size, and color, are defined.</p>
+    </section>
+
+    <section>
+        <h2>Box Model</h2>
+        <div class="box">
+            This is a box element. It demonstrates the box model properties such as margins, padding, and borders.
+        </div>
+    </section>
+
+    <section>
+        <h2>Positioning Elements</h2>
+        <div class="position-relative">
+            <p>This element has relative positioning.</p>
+            <div class="position-absolute">
+                <p>This element has absolute positioning.</p>
+            </div>
+        </div>
+        <div class="position-fixed">
+            <p>This element has fixed positioning.</p>
+        </div>
+    </section>
+</body>
+</html>

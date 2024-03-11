@@ -1,0 +1,32 @@
+/* Flexbox layout */
+.flexbox-section {
+    margin: 20px 0;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexbox-item {
+    width: 30%;
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* CSS Grid layout */
+.grid-section {
+    margin: 20px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+}
