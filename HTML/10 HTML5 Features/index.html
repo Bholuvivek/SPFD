@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="body"> 
+    <header>
+        <h1>HTML5 Features</h1>
+    </header>
+
+    <section>
+        <h2>New Semantic Elements</h2>
+        <article>
+            <h3>Article Title</h3>
+            <p>This is an article element. It represents a self-contained piece of content that could be distributed and reused independently.</p>
+        </article>
+
+        <aside>
+            <h3>Aside Content</h3>
+            <p>This is an aside element. It represents content that is tangentially related to the content around it, such as sidebars or pull quotes.</p>
+        </aside>
+
+        <figure>
+            <img src="example.jpg" alt="Example Image">
+            <figcaption>This is a figure element. It represents content, such as images and diagrams, that is referenced in the main content.</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Geolocation API</h2>
+        <button onclick="getLocation()">Get Location</button>
+        <p id="demo"></p>
+    </section>
+
+    <section>
+        <h2>Web Storage</h2>
+        <input type="text" id="inputData" placeholder="Enter data">
+        <button onclick="saveData()">Save Data (localStorage)</button>
+        <button onclick="showData()">Show Data (localStorage)</button>
+        <button onclick="clearData()">Clear Data (localStorage)</button>
+        <p id="outputData"></p>
+    </section>
+</div>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* Basic styling for sections */
+
+.body{
+    background-color: #2020;
+    justify-content: center;
+    text-align: center;
+}
+    section {
+    margin-bottom: 20px;
+    background-color: aquamarine;
+}
+
+/* Styling for figure element */
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}

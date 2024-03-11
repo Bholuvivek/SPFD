@@ -1,0 +1,10 @@
+/* Basic styling for sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Centering iframe */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
