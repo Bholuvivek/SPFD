@@ -86,7 +86,7 @@ Feel free to explore the individual folders for each topic to access code exampl
 
 For additional support and updates, you can reach me through the following channels:
 
-- **YouTube:** [Vivek Kumar Singh l](https://www.youtube.com/channel/UClhKtACVRfHeYcDiAxngZpQ)
+- **YouTube:** [Vivek Kumar Singh]https://www.youtube.com/channel/UClhKtACVRfHeYcDiAxngZpQ)
 - **Email:** viveksinghpihuli0a@gmail.com
 - **GitHub:** [Bholuvivek](https://github.com/Bholuvivek)
 - **LinkedIn:** ](https://www.linkedin.com/in/vivekbholu)
