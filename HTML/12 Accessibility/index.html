@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Accessibility Example</h1>
+    </header>
+
+    <section>
+        <h2>Accessible Form</h2>
+        <form id="accessibilityForm" class="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" aria-required="true" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" aria-required="true" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" aria-required="true" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
