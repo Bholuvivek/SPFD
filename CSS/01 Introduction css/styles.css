@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Basic Styling */
+.text-red {
+    color: red;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+/* Box Model */
+.box {
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
