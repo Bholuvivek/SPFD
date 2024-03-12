@@ -1,0 +1,40 @@
+/* CSS Syntax and Selectors Example */
+
+/* CSS Syntax */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Selectors */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#content {
+    padding: 20px;
+}
+
+.box {
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#container p {
+    color: blue;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
