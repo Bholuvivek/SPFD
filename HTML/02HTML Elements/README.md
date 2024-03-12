@@ -31,9 +31,10 @@ Headings are used to define the hierarchy of the content. There are six levels o
 
 ```bash
 <img src="image.jpg" alt="Description of the image">
+```
 Lists (Ordered and Unordered)
 Lists are used to represent a group of related items. There are two types of lists: ordered lists (<ol>) and unordered lists (<ul>).
-```
+
 Ordered List
 ```bash
 
