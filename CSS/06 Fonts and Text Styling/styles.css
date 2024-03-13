@@ -1,0 +1,47 @@
+/* Custom font family */
+.font-family {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Font size and weight */
+.font-size-weight {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Text color and background color */
+.text-color {
+    color: blue;
+    background-color: lightgray;
+}
+
+/* Text alignment */
+.text-alignment {
+    text-align: center;
+}
+
+/* Text decoration */
+.text-decoration {
+    text-decoration: underline;
+}
+
+/* Text transform */
+.text-transform {
+    text-transform: uppercase;
+}
+
+/* Letter spacing */
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+/* Line height */
+.line-height {
+    line-height: 1.5;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
