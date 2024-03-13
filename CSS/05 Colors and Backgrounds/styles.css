@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Color examples */
+.color-example {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+#color-1 {
+    background-color: red;
+    color: white;
+}
+
+#color-2 {
+    background-color: green;
+    color: white;
+}
+
+#color-3 {
+    background-color: blue;
+    color: white;
+}
+
+/* Background examples */
+.background-example {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+#background-1 {
+    background-image: url('https://via.placeholder.com/200');
+    background-size: cover;
+    color: white;
+}
+
+#background-2 {
+    background-color: #FFD700;
+}
+
+#background-3 {
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+    color: white;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
