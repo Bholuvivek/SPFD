@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+
+.content {
+    padding: 20px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.border {
+    border: 10px solid red;
+}
+
+.margin {
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
