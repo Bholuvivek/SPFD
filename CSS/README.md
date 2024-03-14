@@ -1,53 +1,53 @@
-# React Topics from Beginner to Advanced
+# CSS Topics from Beginner to Advanced
 
 ## Beginner Level:
 
-1. Introduction to React
-2. Setting Up a React Development Environment
-3. JSX (JavaScript XML)
-4. Components and Props
-5. State and Lifecycle
-6. Handling Events
-7. Conditional Rendering
-8. Lists and Keys
-9. Forms in React
-10. Component Composition
-11. React Router (Basic Routing)
-12. Introduction to React Hooks
-13. Handling Forms with React Hooks
+1. Introduction to CSS
+2. CSS Syntax and Selectors
+3. CSS Box Model
+4. CSS Units (px, em, rem, %)
+5. Colors and Backgrounds
+6. Fonts and Text Styling
+7. CSS Display Property
+8. CSS Positioning (static, relative, absolute, fixed)
+9. CSS Flexbox Layout
+10. CSS Grid Layout
+11. CSS Floats
+12. Responsive Web Design Basics
+13. CSS Transitions
+14. CSS Animations
 
 ## Intermediate Level:
 
-14. React Context API
-15. Higher-Order Components (HOCs)
-16. Error Boundaries
-17. Composition vs Inheritance
-18. Handling Events with React Hooks
-19. Custom Hooks
-20. Optimizing Performance with React.memo and useMemo
-21. Using Redux for State Management
-22. Middleware in Redux
-23. React Router (Advanced Routing and Nested Routes)
-24. Server-Side Rendering with React (Next.js)
-25. Static Site Generation with React (Next.js)
-26. Dynamic Imports and Code Splitting
-27. Testing React Components (using Jest and React Testing Library)
-28. Internationalization (i18n) in React Applications
+15. Advanced Selectors (attribute selectors, pseudo-classes, pseudo-elements)
+16. CSS Specificity and Cascade
+17. CSS Preprocessors (e.g., Sass, LESS)
+18. CSS Variables (Custom Properties)
+19. CSS Media Queries
+20. CSS Grid Layout Techniques
+21. CSS Flexbox Advanced Concepts
+22. CSS Transformations
+23. CSS Transitions Timing Functions
+24. CSS Animation Keyframes
+25. Responsive Design Patterns
+26. CSS Frameworks (e.g., Bootstrap, Foundation)
 
 ## Advanced Level:
 
-29. React Suspense and Concurrent Mode
-30. Error Handling in React Applications
-31. Optimizing Performance with React.lazy and Suspense
-32. React Fiber Architecture
-33. Advanced Redux Concepts (Selectors, Immer, Reselect)
-34. Managing Side Effects with Redux-Saga
-35. GraphQL with React (using Apollo Client or Relay)
-36. React Hooks in Depth (useReducer, useContext, useLayoutEffect)
-37. React Performance Profiling and Optimization Techniques
-38. Progressive Web Apps (PWA) with React
-39. Real-Time Applications with React and WebSockets
-40. Server-Side Rendering Optimization Techniques
+27. CSS Architecture and Organization (BEM, SMACSS, OOCSS)
+28. CSS Performance Optimization
+29. CSS Custom Layouts (e.g., Masonry)
+30. CSS Grid Subgrid
+31. Advanced CSS Animations Techniques
+32. CSS Blend Modes
+33. CSS Filters
+34. CSS Variables Advanced Usage
+35. Responsive Images Techniques
+36. Advanced CSS Grid Layout Techniques
+37. CSS Houdini
+38. CSS-in-JS Solutions
+39. CSS Regression Testing
+40. Experimental CSS Features (e.g., CSS Scroll Snap, Logical Properties)
 
 
 Feel free to explore the individual folders for each topic to access code examples, explanations, and additional resources. We hope you enjoy your learning journey with MERN!
