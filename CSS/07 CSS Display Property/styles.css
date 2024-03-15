@@ -1,0 +1,48 @@
+/* Styles for index.html */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.block, .inline, .inline-block, .none {
+    margin-bottom: 30px;
+}
+
+.block div, .block p, .block footer {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inline span, .inline a, .inline strong {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.inline-block .inline-block-item {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.none .none-item {
+    display: none;
+}
