@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .relative-box, .absolute-box, .fixed-box, .static-box {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .relative-box {
+    position: relative;
+    background-color: #f0f0f0;
+  }
+  
+  .absolute-box {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .fixed-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .static-box {
+    background-color: #f0f0f0;
+  }
+  
