@@ -1,0 +1,27 @@
+/* Attribute Selector Example */
+p[data-category="important"] {
+    color: red;
+    font-weight: bold;
+}
+
+/* Pseudo-Class Example */
+ul li:nth-child(even) {
+    background-color: lightgray;
+}
+
+/* Pseudo-Element Example */
+.container::before {
+    content: "Before Content";
+    display: block;
+    background-color: lightblue;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.container::after {
+    content: "After Content";
+    display: block;
+    background-color: lightgreen;
+    padding: 5px;
+    margin-top: 10px;
+}
