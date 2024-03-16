@@ -34,6 +34,15 @@
 <code><img height="20" alt="python" src="https://img.icons8.com/color/48/000000/python--v1.png"></code>
 <code><img height="20" alt="sql" src="https://img.icons8.com/fluent/48/000000/sql.png"></code>
 
+## GitHub Stats
+
+[![Vivek Kumar ](https://github-readme-stats.vercel.app/api?username=Bholuvivek&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+## Most Used Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bholuvivek&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+
 ## Top Repositories
 
 <a href="https://github.com/Bholuvivej/SPFD">
