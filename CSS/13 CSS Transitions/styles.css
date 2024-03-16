@@ -1,0 +1,10 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 0.5s ease-in-out; /* Define the transition property */
+}
+
+.expanded {
+    width: 200px; /* New width when expanded */
+}
