@@ -1,6 +1,4 @@
-
-
-Hi there, I'm **Vivek Kumar**, a passionate software developer from Bihar, India 🌍
+# Hi there, I'm **Vivek Kumar**, a passionate software developer from Bihar, India 🌍
 
 **About me**
 
@@ -16,6 +14,16 @@ Hi there, I'm **Vivek Kumar**, a passionate software developer from Bihar, India
 
 - ❤️ I have a strong passion for programming, and I particularly enjoy working with technologies like Java, JavaScript, React, Python, Flask, HTML, CSS, and more.
 
+  ## Skills
+
+- **Languages:** Java, Python, JavaScript, HTML5, CSS3
+- **Frontend:** React.js, HTML5, CSS3, Bootstrap, and Tailwind CSS
+- **Backend:** Node.js, Express.js, and Flask
+- **Database:** MongoDB
+- **Data Science & ML:** Pandas, NumPy, Matplotlib, Seaborn Scikit-learn, TensorFlow, Keras, Deep Learning and Familiar with NLP.
+- **Tools:** Git, VS Code, MongoDB and MySQL
+
+
 - 💬 Feel free to ask me about anything [here](https://github.com/Bholuvivek)
 
 <code><img height="20" alt="java" src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"></code>
@@ -25,12 +33,8 @@ Hi there, I'm **Vivek Kumar**, a passionate software developer from Bihar, India
 <code><img height="20" alt="css" src="https://img.icons8.com/color/48/000000/css3.png"></code>
 <code><img height="20" alt="python" src="https://img.icons8.com/color/48/000000/python--v1.png"></code>
 <code><img height="20" alt="sql" src="https://img.icons8.com/fluent/48/000000/sql.png"></code>
-    
 
-
-
-
-#### Top Repositories
+## Top Repositories
 
 <a href="https://github.com/Bholuvivej/SPFD">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Bholuvivek&repo=SPFD&theme=buefy" />
