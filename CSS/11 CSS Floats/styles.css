@@ -1,0 +1,23 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden; /* Clearfix hack to contain floated elements */
+}
+
+.left-column {
+    float: left;
+    width: 50%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.right-column {
+    float: right;
+    width: 50%;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.clearfix {
+    clear: both;
+}
