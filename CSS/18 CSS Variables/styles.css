@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #ffc107;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: var(--secondary-color);
+}
