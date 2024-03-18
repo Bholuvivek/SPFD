@@ -1,0 +1,33 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #ffc107;
+
+// Mixins
+@mixin box-styles($width, $height, $bg-color) {
+    width: $width;
+    height: $height;
+    background-color: $bg-color;
+    border: 1px solid darken($bg-color, 10%);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+// Nesting
+.container {
+    text-align: center;
+
+    h1 {
+        color: $primary-color;
+    }
+
+    p {
+        color: $secondary-color;
+    }
+
+    .box {
+        @include box-styles(200px, 200px, $primary-color);
+    }
+}
+
+// Partials (imported files)
+@import 'partials/_responsive.scss';
