@@ -1,0 +1,15 @@
+/* General styles for all paragraphs */
+p {
+    color: blue;
+    font-size: 16px;
+}
+
+/* Styles for paragraphs with class "text" */
+.text {
+    font-weight: bold;
+}
+
+/* Styles for paragraphs with id "special-text" */
+#special-text {
+    color: red;
+}
