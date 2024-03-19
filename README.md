@@ -4,7 +4,7 @@
 
 - 💼 Frontend Developer at [Margdshan](https://marg-darshan.com/)
 
-  - 📈 Here are some of my notable projects and achievements:
+    - 📈 Here are some of my notable projects and achievements:
     - Developed a quiz application using Java AWT Swing.
     - Created a chat application using Java AWT Swing and socket programming.
     - Built a todo application using React.
