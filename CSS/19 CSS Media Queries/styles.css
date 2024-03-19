@@ -1,0 +1,43 @@
+/* Default styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Media queries for responsive design */
+  
+  /* For screens smaller than 600px */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  /* For screens between 600px and 1200px */
+  @media screen and (min-width: 600px) and (max-width: 1200px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  /* For screens larger than 1200px */
+  @media screen and (min-width: 1200px) {
+    body {
+      background-color: lightyellow;
+    }
+  }
+  
