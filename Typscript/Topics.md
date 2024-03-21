@@ -1,0 +1,204 @@
+# TypeScript Handbook
+
+## Introduction to TypeScript
+- What is TypeScript?
+- Why TypeScript?
+- TypeScript and JavaScript
+- TypeScript Code Generation
+- Modern JavaScript Now (Downleveling)
+
+## Getting Started With TypeScript
+### Installation
+### Configuration
+- TypeScript Configuration File (tsconfig.json)
+  - target
+  - lib
+  - strict
+  - module
+  - moduleResolution
+  - esModuleInterop
+  - jsx
+  - skipLibCheck
+  - files
+  - include
+  - exclude
+
+## Migration to TypeScript
+- Migration to TypeScript Advice
+
+## Exploring the Type System
+- The TypeScript Language Service
+- Structural Typing
+- TypeScript Fundamental Comparison Rules
+- Types as Sets
+- Assigning a Type: Type Declarations and Type Assertions
+  - Type Declaration
+  - Type Assertion
+  - Non-null Assertion
+- Ambient Declarations
+- Property Checking and Excess Property Checking
+- Weak Types
+- Strict Object Literal Checking (Freshness)
+- Type Inference
+- More Advanced Inferences
+- Type Widening
+- Const
+- Const Modifier on Type Parameters
+- Explicit Type Annotation
+- Const Assertion
+- Type Narrowing
+  - Conditions
+  - Throwing or Returning
+  - Discriminated Union
+  - User-defined Type Guards
+
+## Primitive Types
+- string
+- boolean
+- number
+- bigInt
+- symbol
+- null and undefined
+- Array
+  - any
+  - Type Annotations
+  - Optional Properties
+  - Readonly Properties
+  - Index Signatures
+  - Extending Types
+  - Literal Types
+  - Literal Inference
+  - strictNullChecks
+  - Non-null Assertion Operator (Postfix !)
+- Enums
+  - Numeric enums
+  - String enums
+  - Constant enums
+  - Reverse Mapping
+  - Ambient Enums
+  - Computed and Constant Members
+  - Narrowing
+    - typeof Type Guards
+    - Truthiness Narrowing
+    - Equality Narrowing
+    - In Operator Narrowing
+    - instanceof Narrowing
+  - Assignments
+  - Control Flow Analysis
+    - Type Predicates
+    - Discriminated Unions
+  - The never Type
+  - Exhaustiveness Checking
+- Object Types
+  - Tuple Type
+  - Fixed Length Tuple
+  - Union Type
+  - Intersection Types
+  - Type Indexing
+  - Type from Value
+  - Type from Func Return
+  - Type from Module
+- Mapped Types
+  - Conditional Types
+    - Distributive Conditional Types
+    - “infer” Type Inference in Conditional Types
+  - Predefined Conditional Types
+  - Template Union Types
+  - Any Type
+  - Unknown Type
+  - Void Type
+  - Never Type
+- Interface and Type
+  - Common Syntax
+  - Basic Types
+  - Objects and Interfaces
+  - Union and Intersection Types
+  - Built-in Type Primitives
+  - Common Built-in JS Objects
+- Overloads
+  - Get & Set
+  - Merging and Extension
+  - Differences between Type and Interface
+- Class
+  - Class Common Syntax
+  - Constructor
+  - Private and Protected Constructors
+  - Access Modifiers
+  - Auto-Accessors in Classes
+  - this
+  - Parameter Properties
+  - Abstract Classes
+  - With Generics
+  - Decorators
+    - Class Decorators
+    - Property Decorator
+    - Method Decorator
+    - Getter and Setter Decorators
+  - Inheritance
+    - Statics
+    - Property Initialization
+    - Method Overloading
+- Generics
+  - Generic Type
+  - Generic Classes
+  - Generic Constraints
+  - Generic Contextual Narrowing
+  - Erased Structural Types
+- Namespacing
+  - Symbols
+  - Triple-Slash Directives
+- Type Manipulation
+  - Creating Types from Types
+  - Indexed Access Types
+- Utility Types
+  - Awaited<T>
+  - Partial<T>
+  - Required<T>
+  - Readonly<T>
+  - Record<K, T>
+  - Pick<T, K>
+  - Omit<T, K>
+  - Exclude<T, U>
+  - Extract<T, U>
+  - NonNullable<T>
+  - Parameters<T>
+  - ConstructorParameters<T>
+  - ReturnType<T>
+  - InstanceType<T>
+  - ThisParameterType<T>
+  - OmitThisParameter<T>
+  - ThisType<T>
+  - Uppercase<T>
+  - Lowercase<T>
+  - Capitalize<T>
+  - Uncapitalize<T>
+- Others
+  - Errors and Exception Handling
+  - Asynchronous Language Features
+  - Iterators and Generators
+  - TsDocs JSDoc Reference
+  - @types
+  - JSX
+  - ES6 Modules
+  - ES7 Exponentiation Operator
+  - The for-await-of Statement
+  - New.target
+  - Dynamic Import Expressions
+  - “tsc –watch”
+  - Definite Assignment Assertions (!)
+  - Defaulted Declarations
+  - “const” Assertions
+  - Optional Chaining
+  - Nullish Coalescing Operator (??)
+  - Template Literal Types
+  - Function Overloading
+  - Recursive Conditional Types
+  - ECMAScript Module Support in Node.js
+  - Assertion Functions
+  - Variadic Tuple Types
+  - Boxed Types
+  - Key Remapping in Mapped Types
+  - Covariance and Contravariance in TypeScript
+  - Optional Variance Annotations for Type Parameters
+  - Symbol and Template String Pattern Index Signatures
+  - The satisfies Operator
