@@ -65,7 +65,7 @@ console.log(myname)
 
 ```
 
-# if I go for the Function 
+# If I go for the Function 
 - in function we also have to give type for better code 
 
 # For Example
