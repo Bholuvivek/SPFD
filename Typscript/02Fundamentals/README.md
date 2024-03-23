@@ -1,3 +1,3 @@
 ## Typescript Fundamentals
 
-# Array
+# Array in typescipt
