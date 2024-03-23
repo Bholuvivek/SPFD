@@ -136,3 +136,5 @@ let mysymbol = symbol(''start)
 - It is like suggation when we write the wrong keyword or syntax that time it indecate the error.
 - With the help of we can see the bugs and error at the writting the syntax.
 - Mainly It help us to bulid and write a manner code.
+
+- 
