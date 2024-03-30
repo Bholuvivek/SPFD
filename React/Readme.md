@@ -61,30 +61,43 @@ import { useState } from 'react';
 const Form = () => {
   // eslint-disable-next-line no-undef
   const  [inputValue, setInputValue] =  useState('');
+	const [selectedOption, setSelectedOption] = useState("option1");
 
+	
 	const  handleChange = (event) => {
 		setInputValue(event.target.value);
 	};
+
+  const  handleDropdownChange = (event) => {
+		setSelectedOption(event.target.value);
+	};
   return (
     <>
-
-    <div className='md:w-[373px] h-[480px] p-0.5 rounded-md bg-slate-700 align-center justify-center ml-96'>
-      <div className='mt-1 mx-1'><img className=' w-[365px] rounded-md' src="https://images.pexels.com/photos/247899/pexels-photo-247899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" /></div>
-      <p>Book Your Session</p>
-<form>
-	<input className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]'  type="text" placeholder='Full Name....'  value={inputValue} onChange={handleChange} /><br />
-  <input className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]'  type="email" placeholder='Email'  value={inputValue} onChange={handleChange} /><br />
-  <input className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]'  type="tel" placeholder="Mobile Number"  value={inputValue} onChange={handleChange} /><br />
-  <input className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]'  type="text" placeholder='City'  value={inputValue} onChange={handleChange} /><br />
-  <select className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]' name="" id="" value="select"> Select
-    <option value="One">One</option>
-    <option value="Two">Two</option>
-    <option value="Three">Three</option>
-  </select>
-  <button  className='float-right bg-slate-100 w-[75px] rounded-md m-2'>Submit</button>
-  </form>
+<>
+  <div className='flex justify-center items-center h-screen'>
+    <div className='md:w-[373px] h-[480px] p-0.5 rounded-md bg-slate-700 flex flex-col items-center justify-center'>
+      <div className='overflow-y-hidden'>
+        <img className='w-[365px] rounded-md' src="https://images.pexels.com/photos/247899/pexels-photo-247899.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" />
+      </div>
+      <div className='float-start text-left'> <p>Book Your Session for Better service 1st free</p></div>
      
+      <form className='flex flex-col '>
+        <input className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]' type="text" placeholder='Full Name....' value={inputValue} onChange={handleChange} />
+        <input className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]' type="email" placeholder='Email' value={inputValue} onChange={handleChange} />
+        <input className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]' type="tel" placeholder="Mobile Number" value={inputValue} onChange={handleChange} />
+        <input className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]' type="text" placeholder='City' value={inputValue} onChange={handleChange} />
+        <select className='mx-2 bg-slate-100 w-[355px] rounded-md m-[4px]' value={selectedOption} onChange={handleDropdownChange}>
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </select>
+        <div>  <button className='float-right bg-slate-100 w-[75px]  rounded-md m-2'>Submit</button></div>
+      
+      </form>
     </div>
+  </div>
+</>
+
     </>
   )
 }
