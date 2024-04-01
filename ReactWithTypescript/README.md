@@ -7,7 +7,7 @@
 
 ```sh
 npx create-react-app react-hook-form-demo
-``
+```
  Or
 ```sh
 yarn add react-hook-form
