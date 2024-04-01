@@ -38,8 +38,6 @@
 
 [![Vivek Kumar ](https://github-readme-stats.vercel.app/api?username=Bholuvivek&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-<br/><br>
-# Streak
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Bholuvivek)](https://git.io/streak-stats)
 
 ## Most Used Languages
