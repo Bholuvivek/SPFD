@@ -1,0 +1,1 @@
+This is the new file Here I am writting this content using the writeFileSync method
