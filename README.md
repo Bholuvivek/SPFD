@@ -29,8 +29,8 @@
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Bholuvivek)](https://git.io/streak-stats)
 
 ## Most Used Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bholuvivek&layout=compact)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bholuvivek&layout=compact&theme=dark)](https://github.com/Bholuvivek/github-readme-stats)
 
 ## Top Repositories
 
