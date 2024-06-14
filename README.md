@@ -30,7 +30,7 @@
 
 ## Most Used Languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bholuvivek&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bholuvivek&layout=compact&theme=dark)](https://github.com/Bholuvivek/github-readme-stats)
 
 ## Top Repositories
 
@@ -39,6 +39,7 @@
 </a>
 
 <a href="https://github.com/Bholuvivek/React-Projects">
+  
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Bholuvivek&repo=React-Projects&theme=buefy" />
 </a>
 
