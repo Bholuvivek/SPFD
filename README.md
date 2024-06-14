@@ -31,7 +31,7 @@
 ## Most Used Languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bholuvivek&layout=compact)
 
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bholuvivek&layout=donut)
 ## Top Repositories
 
 <a href="https://github.com/Bholuvivek/SPFD">
