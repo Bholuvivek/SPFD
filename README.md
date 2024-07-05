@@ -18,6 +18,7 @@
 - **Languages:** Java, Python, JavaScript, TypeScript, HTML5, CSS3
 - **Frontend:** React.js, TypeScript, HTML5, CSS3, Bootstrap, Tailwind CSS, Material UI
 - **Backend:** Node.js, Express.js, Flask
+- **Query**: React Query, Graphql.
 - **Databases:** MongoDB, MySQL
 - **Data Science & ML:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras, NLP
 - **Tools:** Git, VS Code
