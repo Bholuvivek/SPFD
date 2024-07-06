@@ -1,0 +1,19 @@
+{
+  "name": "01hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+    "scripts": {
+      "start": "npm start",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "backend": "node server.js"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "package.json": "^2.0.1"
+  }
+}
