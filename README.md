@@ -2,7 +2,7 @@
 
 **About me**
 
-- 💼 **Frontend Developer** at [Margdshan](https://marg-darshan.com/)
+- 💼 **Web Developer** at [Margdshan](https://marg-darshan.com/)
   - 📈 **Notable Projects and Achievements:**
     - Developed a quiz application using Java AWT Swing.
     - Created a chat application using Java AWT Swing and socket programming.
