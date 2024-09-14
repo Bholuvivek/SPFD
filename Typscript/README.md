@@ -73,3 +73,5 @@ This repository serves as a guide for learning TypeScript, building upon existin
 
 - Utilize TypeScript's official documentation and online resources like blogs, tutorials, and forums.
 - Engage with the TypeScript community through forums, GitHub repositories, and social media channels to stay updated and seek help when needed.
+
+Happy Coding
