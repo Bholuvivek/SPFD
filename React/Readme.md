@@ -90,3 +90,20 @@ function App() {
 export default App;
 
 ```
+
+
+# References Table
+
+| **Category**             | **Title**                                   | **Description**                                                    | **Link**                                                    |
+|--------------------------|---------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------------|
+| **Articles**             | React Patterns for Component Reusability   | React Patterns Documentation                                       | [React Patterns](https://reactpatterns.com/)              |
+|                          | Advanced React Component Patterns          | Kent C. Dodds Blog                                                 | [Advanced React Patterns](https://kentcdodds.com/blog/compound-components-with-react-context-api) |
+|                          | Reusable Component Design with Hooks       | LogRocket Blog                                                     | [LogRocket Blog](https://blog.logrocket.com/how-to-build-reusable-react-components/) |
+| **GitHub Repositories**  | Recoil Todo App                            | A React project demonstrating reusable components and state management with Recoil. | [GitHub Repository](https://github.com/recoiljs/examples) |
+|                          | React-Hooks Library                        | A collection of reusable React hooks.                              | [GitHub Repository](https://github.com/streamich/react-use) |
+| **StackOverflow Threads**| How to Structure a Reusable React Codebase | A detailed discussion on reusable React architecture.              | [StackOverflow Thread](https://stackoverflow.com/questions/55757761/how-to-structure-a-react-codebase-for-reusability) |
+|                          | Reusable Form Components in React          | Insights into reusable form component design.                      | [StackOverflow Thread](https://stackoverflow.com/questions/48399066/reusable-form-components-in-react) |
+| **Documentation**        | Material-UI Customization                  | Guidance on creating reusable Material-UI components.              | [Material-UI Docs](https://mui.com/customization/theming/) |
+|                          | React TypeScript Cheatsheets               | Patterns for reusable TypeScript-based React components.           | [Cheatsheet](https://react-typescript-cheatsheet.netlify.app/) |
+| **Blogs**                | Dynamic Forms in React                     | Explanation of dynamic, reusable forms with minimal duplication.    | [Form Design Article](https://dev.to/aspittel/building-dynamic-forms-in-react-1fip) |
+
