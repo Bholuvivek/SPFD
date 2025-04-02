@@ -2,22 +2,13 @@
 
 **About me**
 
-- 💼 **Frontend Developer** at [Margdshan](https://marg-darshan.com/)
-  - 📈 **Notable Projects and Achievements:**
-    - Developed a quiz application using Java AWT Swing.
-    - Created a chat application using Java AWT Swing and socket programming.
-    - Built a todo application using React.
-    - Developed an AI healthcare chatbot using Python, NLU, Flask, HTML, CSS, JavaScript, and machine learning.
-    - Created an e-commerce website using HTML, CSS, JavaScript, and Flask.
-    - Achieved the GitHub YOLO badge.
-
 - ❤️ I have a strong passion for programming, particularly with technologies like Java, JavaScript, React, Python, Flask, HTML, CSS, TypeScript, Material UI, Redux, Node.js, Express.js, MongoDB, and more.
 
 ## Skills
 
 - **Languages:** Java, Python, JavaScript, TypeScript, HTML5, CSS3
 - **Frontend:** React.js, TypeScript, HTML5, CSS3, Bootstrap, Tailwind CSS, Material UI
-- **Backend:** Node.js, Express.js, Flask
+- **Backend:** Node.js, Express.js, Flask, Springboot.
 - **Query**: React Query, Graphql.
 - **Databases:** MongoDB, MySQL
 - **Data Science & ML:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras, NLP
