@@ -17,8 +17,9 @@
 ## GitHub Stats
 
 ![Vivek Kumar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Bholuvivek&show_icons=true&theme=dark)
-
 <img src="https://streak-stats.demolab.com?user=Bholuvivek&theme=default&hide_border=true" alt="Bholuvivek's GitHub Stats" />
+
+
 ## Most Used Languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bholuvivek&layout=compact)
 
